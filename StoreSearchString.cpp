@@ -23,7 +23,7 @@ int main()
         {
             if (database.find(key) != database.end())
             {
-                cout << "1\n";
+                cout << "1\n"; // check xem giá trị có trong database không
             }
             else
             {
@@ -38,7 +38,7 @@ int main()
             }
             else
             {
-                database[key] = true;
+                database[key] = true; // thêm phần tử vào database
                 cout << "1\n";
             }
         }
