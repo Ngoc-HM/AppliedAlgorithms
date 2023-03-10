@@ -1,0 +1,15 @@
+1, Mảng tĩnh: array
+
+2, Mảng động: Vector
+
+3, Ngăn xếp (Stack): 
+
+4, Hàng đợi (Queue):
+
+5, Hàng đợi ưu tiên (priority_queue): các phần tử có giá trị lớn hơn sẽ nổi lên trên đầu 
+
+6, Hàng đợi hai đầu (dequeu): có thể lấy ra, thêm vào ở 2 đầu hàng đợi 
+
+7, Tập hợp (set): lưu trữ các phần tử có giá trị khác nhau 
+
+8, Danh sách liên kết(list): 
