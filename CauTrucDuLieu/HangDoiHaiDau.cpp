@@ -31,17 +31,35 @@ int main() {
     // Output: 10 30
     // trả về phần tử đầu tiên của deque
     std::cout << mydeque.front() << std::endl;
+
     // trả về phần tử cuối cùng của deque
     std::cout << mydeque.back() << std::endl;
+
     // kiểm tra deque có rỗng hay không
     bool check = mydeque.empty();
+
     // trả về số phần tử trong deque
     int size = mydeque.size();
+
     // xóa toàn bộ phần tử trong deque
     mydeque.clear();
+
     // Xóa toàn bộ không tử trong deque
     mydeque.erase(mydeque.begin(), mydeque.end());
-    
+
+    // sao chép hàng đợi này sang hàng đợi khác
+    std::deque <int> mydeque1(mydeque) ;
+
+    // lấy giá trị phần tử cuối mà ko xóa
+    mydeque.back();
+
+    // check xem hàng đợi có rỗng không
+
+    mydeque.empty(); // true nếu rỗng còn false nếu ko rỗng
+
+
+
+
 
 
     return 0;
